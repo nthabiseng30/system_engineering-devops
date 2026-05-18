@@ -1,0 +1,19 @@
+#!/usr/bin/env bash
+# This script displays files in current directory after first dash (-)
+
+for file in *
+do
+    # skip hidden files (just in case)
+    if [[ "$file" == .* ]]
+    then
+        continue
+    fi
+
+    # check if file contains a dash
+    if [[ "$file" == *-* ]]
+    then
+        echo "${file#*-}"
+    else
+        echo "$file"
+    fi
+done
