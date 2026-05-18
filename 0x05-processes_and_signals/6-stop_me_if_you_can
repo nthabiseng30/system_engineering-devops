@@ -1,5 +1,4 @@
 #!/usr/bin/env bash
-# Stops 4-to_infinity_and_beyond process using PID + /proc
+# Stops 4-to_infinity_and_beyond process
 
-pid=$(pgrep -f 4-to_infinity_and_beyond)
-echo "$pid" > /proc/"$pid"/ctl 2>/dev/null
+pkill -f "^4-to_infinity_and_beyond$"
