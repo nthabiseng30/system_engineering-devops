@@ -1,4 +1,2 @@
 #!/usr/bin/env bash
-# This script stops the 4-to_infinity_and_beyond process
-
-pgrep -f 4-to_infinity_and_beyond | xargs -r kill -TERM
+pkill -f 4-to_infinity_and_beyond
