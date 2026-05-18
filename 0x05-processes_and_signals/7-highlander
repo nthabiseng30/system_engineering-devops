@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
-# This script handles SIGTERM
+# Handles SIGTERM and keeps running
 
-trap "echo I am invincible!!!" SIGTERM
+trap "echo OK" SIGTERM
 
 while true
 do
