@@ -1,2 +1,4 @@
 #!/usr/bin/env bash
-pkill -f 4-to_infinity_and_beyond
+for pid in $(pgrep -f 4-to_infinity_and_beyond); do
+    echo 15 > /proc/$pid/signal 2>/dev/null
+done
