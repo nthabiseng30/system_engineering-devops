@@ -1,0 +1,15 @@
+total 19
+-rw-r--r-- 1 thabi 197609 12 May 18 01:23 *'"Best School"'*0*****:)
+drwxr-xr-x 1 thabi 197609  0 May 18 01:59 .
+drwxr-xr-x 1 thabi 197609  0 May 18 00:28 ..
+-rwxr-xr-x 1 thabi 197609 32 May 18 00:30 0-hello_world
+-rwxr-xr-x 1 thabi 197609 28 May 18 00:41 1-confused_smiley
+-rwxr-xr-x 1 thabi 197609 28 May 18 00:46 2-hellofile
+-rwxr-xr-x 1 thabi 197609 39 May 18 00:50 3-twofiles
+-rwxr-xr-x 1 thabi 197609 29 May 18 00:57 4-lastlines
+-rwxr-xr-x 1 thabi 197609 29 May 18 01:02 5-firstlines
+-rwxr-xr-x 1 thabi 197609 40 May 18 01:05 6-third_line
+-rwxr-xr-x 1 thabi 197609 67 May 18 01:53 7-file
+-rwxr-xr-x 1 thabi 197609 36 May 18 01:59 8-cwd_state
+-rw-r--r-- 1 thabi 197609 12 May 18 01:18 filename
+-rw-r--r-- 1 thabi 197609  0 May 18 01:59 ls_cwd_content
